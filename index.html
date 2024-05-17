@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="mano-eleccion" id="mano-eleccion">
+            <h1>Jugas contra la PC a 5, elegir entre:</h1>
+            <div class="eleccion">
+                <button class="mano" id="piedra">Piedra</button>  
+                <button class="mano" id="papel">Papel</button>
+                <button class="mano" id="tijera">Tijera</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-style">
+            <p class="nombre nombre-jugador">JUGADOR</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
+            </p>
+            <p class="nombre nombre-computadora">COMPUTADORA</p>
+        </div>
+        <div class="btn">
+            <button class="disabled" id="reiniciar">Jugar otra vez</button>
+        </div>
+        <div class="btn-style">
+            <button id="historial">Ultimo resultado</button>
+            <div id="historial-usuario"></div>
+            <div id="historial-pc"></div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

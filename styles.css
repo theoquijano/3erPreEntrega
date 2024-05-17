@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.eleccion {
+    display: flex;
+    justify-content: center;
+    padding-block: 4rem;
+    gap: 2rem;
+}
+
+.main-style {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    padding-block: 1rem;
+}
+
+.mano {
+    cursor: pointer;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-style {
+    padding-left: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    display: none;
+}
